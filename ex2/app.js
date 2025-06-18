@@ -1,19 +1,33 @@
-import prompt from 'prompt-sync'
-let ler = prompt();
+import prompt from "prompt-sync"
+const ler = prompt();
+console.log('----PROGRAMA DO RECORDE----\n');
 
-// link da questao: https://olimpiada.ic.unicamp.br/pratique/p1/2020/f1/tesouro/ 
-
-
-console.log("informe o numero de moedas")
-let moedas= Number(ler());
-
-console.log('informe o numero de marinheiros')
-let mari=Number(ler());
+console.log('Me informe O seu recorde');
+let r = Number(ler());
 
 
+console.log("\nMe informe O recorde mundial");
+let m = Number(ler());
 
-let soma=mari+2;
+console.log("\nMe informe O recorde olímpico");
+let o = Number(ler());
 
-let div = (moedas / soma) * 2;
+let sit;
+if(r > m){
+sit = 'RM'
+}
 
-console.log(`o capitao recebe ${div}`)
+else {
+    sit = '*'
+}
+
+console.log(sit);
+
+if(r > o){
+sit = 'Ro'
+}
+
+else {
+    sit = '*'
+}
+    console.log(sit); 

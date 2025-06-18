@@ -22,3 +22,5 @@ for(let i = 1; i <= parc; i++){
         console.log(parcelas);
     }
 }
+
+console.log('Feito');
