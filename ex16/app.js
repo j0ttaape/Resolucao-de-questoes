@@ -2,6 +2,9 @@ import prompt from  'prompt-sync'
 import { VerificarDimensoes } from './funcao.js';
 let ler = prompt();
 
+
+// link da questao: https://olimpiada.ic.unicamp.br/pratique/pj/2017/f1/drone/
+
 console.log(`Olá, me informe a primeira dimensão da caixa:\n`);
 let dime1 = Number(ler());
 
