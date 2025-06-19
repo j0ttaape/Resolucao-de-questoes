@@ -22,7 +22,7 @@ let parcelas = parseInt(item / parc);
 
 let sobra = item % parc;
 
-export function fazerSobra(){
+export function fazerSobra(parc,sobra,parcelas){
 for(let i = 1; i <= parc; i++){
     if(i <= sobra){
         console.log(parcelas + 1);
@@ -33,5 +33,4 @@ for(let i = 1; i <= parc; i++){
     }
 }
 
-console.log('Feito');
 }
