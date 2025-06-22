@@ -14,7 +14,7 @@ export function obterNumeroMeergulho(){
     console.log(`Informe o numero de mergulhos`);
     let N=Number(ler());
 
-    return
+    return N;
 }
 
 export function obterComprimento(){
